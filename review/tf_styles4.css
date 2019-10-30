@@ -4,8 +4,8 @@
    Tutorial 5
    Review Assignment
    
-   Author:   
-   Date:     
+   Author:   yelaina buford 
+   Date:     10/29/19
       
    Filename: tf_styles4.css
 
@@ -22,12 +22,31 @@
 
 
 /* General Flex Styles */
+body{
+   display: -webkit-box;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
 
-
-
-
-
-
+section#left{
+   flex: 1 8 130px;
+}
+section#right{
+   flex: 8 1 351px;
+}
+select#tips{
+   display: -webkit-box;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+article{
+   flex: 2 1 351px;
+}
+aside{
+   flex:1 2 250px;
+}
 /* ===============================
 	Mobile Devices: 0 to 480px 
    ===============================
