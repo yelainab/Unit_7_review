@@ -37,7 +37,7 @@ section#right{
    -webkit-flex: 8 1 351px;
    flex: 8 1 351px;
 }
-secto.tips{
+section.tips{
    display: -webkit-box;
    display: flex;
    -webkit-flex-flow: row wrap;
